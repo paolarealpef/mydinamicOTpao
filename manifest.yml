@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: mydinamicOTpao
+  host: mydinamicOTpao
+  disk_quota: 1024M
+  buildpack: https://github.com/ibmdb/db2heroku-buildpack-php
